@@ -23,7 +23,7 @@ public:
     Vector& operator[] (int i);
     friend istream& operator >> (istream& in, Matrice &x);
     friend ostream& operator << (ostream& o, Matrice &x);
-    virtual void f() = 0;
+    virtual void verif_diagonala() = 0;
     int get_m() { return m; }
 };
 

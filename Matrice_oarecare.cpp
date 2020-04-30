@@ -6,7 +6,7 @@
 #include "Matrice_oarecare.h"
 using namespace std;
 
-void Matrice_oarecare::f()
+void Matrice_oarecare::verif_diagonala()
 {
     int ok = 1;
     for (int i = 0; i < m; i++)
@@ -17,6 +17,6 @@ void Matrice_oarecare::f()
             break;
         }
     if (ok == 1)
-        Matrice::f();
+        Matrice::verif_diagonala();
 
 }

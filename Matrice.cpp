@@ -64,7 +64,7 @@ ostream& operator << (ostream& o, Matrice &x)
     return o;
 }
 
-void Matrice::f()
+void Matrice::verif_diagonala()
 {
     int ok = 1;
     for (int i = 1; i < m; i++)

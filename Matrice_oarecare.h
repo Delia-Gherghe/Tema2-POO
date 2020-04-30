@@ -21,7 +21,7 @@ public:
                     (*this).Matrice :: operator = (x);
                 return *this;
             };
-    void f() override;
+    void verif_diagonala() override;
 };
 
 #endif //MATRICE_MOSTENIRE_MATRICE_OARECARE_H
